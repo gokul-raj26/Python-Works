@@ -11,7 +11,7 @@ if choice==1:
         width=float(input("Enter the width of the rectangle:"))
         area=length*width
         print(f"The area of rectangle is{area:.2f}")
-    except ValueError:
+    except Value:
         print ("invalid input,please enter a numeric value for length and width")
 
 
